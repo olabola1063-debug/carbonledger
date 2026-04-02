@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "33-credit-batch-indexer",
+    "35-be-013-admin-panel-api",
+    "57-bulk-purchase-atomicity",
+    "drips/1394-1395-1396-1397",
+    "feat/kani-formal-verification-692",
+    "feature/pause-system-120-issues",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "33-credit-batch-indexer": "main",
+    "35-be-013-admin-panel-api": "main",
+    "57-bulk-purchase-atomicity": "main",
+    "drips/1394-1395-1396-1397": "main",
+    "feat/kani-formal-verification-692": "main",
+    "feature/pause-system-120-issues": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "33-credit-batch-indexer",
+    "35-be-013-admin-panel-api",
+    "57-bulk-purchase-atomicity",
+    "drips/1394-1395-1396-1397",
+    "feat/kani-formal-verification-692",
+    "feature/pause-system-120-issues",
+    "origin"
+  ]
+}
