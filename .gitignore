@@ -4,8 +4,6 @@ node_modules/
 .pnp.js
 
 # Environment
-.env
-.env.local
 .env.*.local
 
 # Build outputs
@@ -45,3 +43,4 @@ npm-debug.log*
 .claude/
 skills-lock.json
 issue.md
+config.bat
