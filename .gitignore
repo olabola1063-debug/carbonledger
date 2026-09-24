@@ -4,8 +4,6 @@ node_modules/
 .pnp.js
 
 # Environment
-.env
-.env.local
 .env.*.local
 
 # Build outputs
@@ -40,3 +38,4 @@ coverage/
 # Logs
 *.log
 npm-debug.log*
+config.bat
