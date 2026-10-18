@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "tsc --noEmit",
     "test": "jest --passWithNoTests --coverage",
     "test:watch": "jest --watch",
@@ -16,7 +16,7 @@
     "test:visual:ui": "playwright test tests/visual-regression.spec.ts --ui",
     "test:visual:update": "playwright test tests/visual-regression.spec.ts --update-snapshots",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "build-storybook": "node init && storybook build",
     "test-storybook": "test-storybook"
   },
   "dependencies": {
